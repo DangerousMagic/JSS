@@ -1,5 +1,5 @@
 {
-  "name": "sjss",
+  "name": "node-sjss",
   "version": "1.0.0",
   "description": "SJSS (SimpleJavaScriptStorage) is a simple way to store your data in memory and on disk!",
   "main": "SJSS.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DangerousMagic/JSS.git"
+    "url": "git+https://github.com/DangerousMagic/SJSS.git"
   },
   "author": "DangerousMagic",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DangerousMagic/JSS/issues"
+    "url": "https://github.com/DangerousMagic/SJSS/issues"
   },
-  "homepage": "https://github.com/DangerousMagic/JSS#readme"
+  "homepage": "https://github.com/DangerousMagic/SJSS#readme"
 }
