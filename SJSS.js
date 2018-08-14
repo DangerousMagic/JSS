@@ -16,9 +16,6 @@ var JSS = function (options) {
     this.storagePath = __dirname + "/" + this.opt.storageName + '.storage';
 
     this.save = function(){
-        console.log(this.data);
-        console.log(' => ');
-        console.log(this.storagePath);
         fs.writeFile(this.storagePath, JSON.stringify(this.data), function() { return true; });
     };
 
