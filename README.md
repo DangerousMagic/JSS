@@ -1,10 +1,12 @@
-# SJSS
+# SJSS (SimpleJavaScriptStorage)
 
 SJSS (SimpleJavaScriptStorage) is a simple way to store your data in memory and on disk!
 
 ## Initialization
 
-    var SJSS = require('storage');
+Install package: ``npm install node-sjss`` 
+
+    var SJSS = require('node-sjss');
     var storage = new SJSS({});
 
 #### Options
@@ -14,11 +16,14 @@ SJSS (SimpleJavaScriptStorage) is a simple way to store your data in memory and 
 * saveOnEdit
     * Turn on or off auto-saving after adding/removing/editing data (defaults to false, save manually when turned off)
     
+    
+Example: 
+``var storage = new SJSS({storageName: 'myStorageFile', saveOnEdit: false});``
 
 #### Methods
 
 * save
-    * Manually save your data to the configured file
+    * Manually save your data from memory to disk
 * dump
     * Return all data as an Object
 * add(key, data)
@@ -27,3 +32,13 @@ SJSS (SimpleJavaScriptStorage) is a simple way to store your data in memory and 
     * remove data from file
 * has(key)
     * Check if data (identified by key) exists in file
+    
+#### Example
+    
+    var SJSS = require('node-sjss');
+    var storage = new SJSS({saveOnEdit: false});
+    
+    if(!storage.has("user1")){
+        storage.add("user1", {name: 'John Doe', age: 17});
+        storage.save();
+    }
