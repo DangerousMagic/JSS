@@ -1,8 +1,8 @@
 var fs = require('fs');
 
-var JSS = function (options) {
+var SJSS = function (options) {
     this.defaults = {
-        storageName: 'jss',
+        storageName: 'sjss',
         saveOnEdit: true
     };
 
@@ -60,4 +60,4 @@ var JSS = function (options) {
     }
 };
 
-module.exports = JSS;
+module.exports = SJSS;

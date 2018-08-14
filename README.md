@@ -1,6 +1,6 @@
 # SJSS
 
-SJSS (JavaScriptStorage) is a simple way to store your data in memory and on disk!
+SJSS (SimpleJavaScriptStorage) is a simple way to store your data in memory and on disk!
 
 ## Initialization
 

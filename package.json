@@ -1,8 +1,8 @@
 {
-  "name": "jss",
+  "name": "sjss",
   "version": "1.0.0",
-  "description": "JSS (JavaScriptStorage) is a simple way to store your data in memory and on disk!",
-  "main": "JSS.js",
+  "description": "SJSS (SimpleJavaScriptStorage) is a simple way to store your data in memory and on disk!",
+  "main": "SJSS.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
